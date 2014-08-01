@@ -1,0 +1,20 @@
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionicons/fonts" !default;
+
+// @import "../libs/pace/themes/pace-theme-flash.css";
+// @import "./mixins";
+// Include all of Ionic
+@import "../lib/ionic/scss/ionic";
+// @import "../lib/ionicons/scss/ionicons.scss";
+@import "./variables";
+
+// Custom styles
+@import "./index";
+@import "./header";
+@import "./forms";
+@import "./buttons";
+@import "./login";
+@import "./profile";
+@import "./table";
+@import "./others";
+@import "./loading-bar";
